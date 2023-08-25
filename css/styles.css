@@ -1,0 +1,120 @@
+
+body {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    width: 1440px;
+    margin: auto;
+    padding: auto;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+a:hover {
+    cursor: pointer;
+}
+header {
+    width: 1440px;
+    background: #FFF;
+    padding: 8px 0 8px 0;
+    
+}
+
+.navigation {
+    float: left;
+}
+
+.navigation-logo {
+    color: #2E2F42;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-decoration: none;
+    padding-left: 156px;
+}
+
+.navigation-logo span {
+    color: #4D5AE5;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    padding-top: 188px;
+    margin: 0 0 48px 0;
+}
+
+.h1 {
+    text-align: center;
+    display: block;
+    width: 1440px;
+    height: 600px;
+    background-color: #2E2F42;
+    
+}
+.navigation ul {
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 76px;
+}
+
+.navigation li {
+    padding-right: 40PX;
+}
+
+.navigation > ul > li > a {
+    color: #2E2F42;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.navigation > ul > li > a:active {
+    color:#404BBF;
+}
+
+.navigation>ul>li>a:hover {
+    color: #404BBF;
+}
+
+address ul {
+    list-style-type: none;
+    margin-left: 292px;
+    display: inline-flex;
+    padding: 0;
+    
+}
+address ul li a {
+    padding-right: 40PX;
+    color:#434455;
+    font-style: normal;
+} 
+
+.h1 button {
+    display: inline-flex;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color:#FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.h1 button:hover {
+    align-items: flex-start;
+    gap: 10px;
+    background: #404BBF;
+}
