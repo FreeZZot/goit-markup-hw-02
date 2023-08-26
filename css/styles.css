@@ -5,7 +5,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.32px;
     color: #434455;
     background-color: #FFF;
 }
@@ -33,53 +32,55 @@ a:hover {
 .logo-style span {
     color: #2e2f42;
 }
-
-h1 {
-    color: #FFF;
+.h1class {
     font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 1.12px;
-
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-.h1 {
-    text-align: center;
+
+.section1 {
     background-color: #2E2F42;
 }
 
 
-.navigation-link {
+.navigationlink {
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.navigation-link:hover {
+.navigationlink:hover, .navigationlink:focus, .adresslink:hover,
+.adresslink:focus {
     color: #404BBF;
 }
+
 .adress {
     color:#434455;
     font-style: normal;
 }
-.adress:hover {
-    color: #404bbf;
-} 
-.adress:focus {
-    color: #404bbf;
+.adresslink {
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.button-h1 {
+.buttonh1 {
     background: #4D5AE5;
     font-weight: 500;
+    font-family: "Roboto", sans-serif;
     line-height: 1.5;
     cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
-.button-h1:hover, .button-h1:focus  {
+.buttonh1:hover, .buttonh1:focus  {
     background: #404BBF;
 }
-.h3class {
+.drittetittel {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -95,7 +96,7 @@ h1 {
 .our-team {
     background-color: #F4F4FD;
 }
-.h2class {
+.sectionname {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -103,15 +104,25 @@ h1 {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.section3-list {
+.section3list {
     background-color: #FFFFFF;
 }
 .footer {
     background-color: #2e2f42;
 }
-.footer-logo {
+.footerP {
     color: #f4f4fd;
 }
-.footer-p {
-    color: #F4F4FD;
+.footerlogo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footerlogospan {
+    color: #f4f4fd;
+    
 }
