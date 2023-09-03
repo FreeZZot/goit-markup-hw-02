@@ -7,6 +7,9 @@ body {
     color: #434455;
     background-color: #FFF;
 }
+ul {
+    list-style: none;
+}
 a {
     text-decoration: none;
     font-style: normal;
@@ -61,9 +64,9 @@ a:hover {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     cursor: pointer;
-    font-size: 16px;
     letter-spacing: 0.04em;
     color: #ffffff;
+    border: none;
 }
 .button:hover, .button:focus  {
     background: #404BBF;
@@ -114,4 +117,17 @@ a:hover {
 .footerlogospan {
     color: #f4f4fd;
 
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
